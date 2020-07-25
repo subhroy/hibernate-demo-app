@@ -20,8 +20,8 @@ public class HibernateUtil {
             props.setProperty("hibernate.connection.username","root");
             props.setProperty("hibernate.connection.password","root");
 
-            props.setProperty("hibernate.connection.dialect","org.hibernate.dialect.MySQLDialect");
-            props.setProperty("hibernate.hbm2ddl","update");
+            props.setProperty("hibernate.connection.dialect","org.hibernate.dialect.MySQL5Dialect");
+            props.setProperty("hibernate.hbm2ddl.auto","update");
 
             props.setProperty("hibernate.show_sql","true");
             props.setProperty("hibernate.format_sql","true");
